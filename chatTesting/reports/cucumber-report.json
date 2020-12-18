@@ -1,0 +1,182 @@
+[
+  {
+    "description": "    As a user\n    I want to be able to chat with OCA agent",
+    "elements": [
+      {
+        "id": "chat;user-success-chat-on-the-website",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "user success chat on the website",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse homepage",
+            "result": {
+              "status": "passed",
+              "duration": 1206800
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\USER\\Downloads\\DTIProject\\functional-test\\step-definitions\\chat-steps.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click kirimpesan button",
+            "result": {
+              "status": "passed",
+              "duration": 592700
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\USER\\Downloads\\DTIProject\\functional-test\\step-definitions\\chat-steps.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user fill in the message to be sent",
+            "result": {
+              "status": "passed",
+              "duration": 433900
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\USER\\Downloads\\DTIProject\\functional-test\\step-definitions\\chat-steps.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user click send button",
+            "result": {
+              "status": "passed",
+              "duration": 312500
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\USER\\Downloads\\DTIProject\\functional-test\\step-definitions\\chat-steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 14743605300
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\USER\\Downloads\\DTIProject\\functional-test\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@success",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "chat",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "chat",
+    "tags": [],
+    "uri": "C:/Users/USER/Downloads/DTIProject/functional-test/features/chat.feature"
+  },
+  {
+    "description": "    As a user\n    I can't send messages",
+    "elements": [
+      {
+        "id": "chatfailed;user-failed-chat-on-the-website",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "user failed chat on the website",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse homepage failed",
+            "result": {
+              "status": "passed",
+              "duration": 186600
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\USER\\Downloads\\DTIProject\\functional-test\\step-definitions\\chatfailed-steps.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click kirimpesan button failed",
+            "result": {
+              "status": "passed",
+              "duration": 124800
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\USER\\Downloads\\DTIProject\\functional-test\\step-definitions\\chatfailed-steps.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user fill in the message to be sent failed",
+            "result": {
+              "status": "passed",
+              "duration": 356300
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\USER\\Downloads\\DTIProject\\functional-test\\step-definitions\\chatfailed-steps.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user click send button failed",
+            "result": {
+              "status": "passed",
+              "duration": 165200
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\USER\\Downloads\\DTIProject\\functional-test\\step-definitions\\chatfailed-steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 11801982500
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\USER\\Downloads\\DTIProject\\functional-test\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@notsuccess",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "chatfailed",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "chatfailed",
+    "tags": [],
+    "uri": "C:/Users/USER/Downloads/DTIProject/functional-test/features/chatfailed.feature"
+  }
+]

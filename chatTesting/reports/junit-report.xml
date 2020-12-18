@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="chat;user-success-chat-on-the-website" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="@success" value="true">
+            </property>
+            <property name="URI" value="C:/Users/USER/Downloads/DTIProject/functional-test/features/chat.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse homepage" classname="chat;user-success-chat-on-the-website" time="0.0012068">
+        </testcase>
+        <testcase name="And user click kirimpesan button" classname="chat;user-success-chat-on-the-website" time="0.0005927">
+        </testcase>
+        <testcase name="When user fill in the message to be sent" classname="chat;user-success-chat-on-the-website" time="0.0004339">
+        </testcase>
+        <testcase name="Then user click send button" classname="chat;user-success-chat-on-the-website" time="0.0003125">
+        </testcase>
+    </testsuite>
+    <testsuite name="chatfailed;user-failed-chat-on-the-website" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="@notsuccess" value="true">
+            </property>
+            <property name="URI" value="C:/Users/USER/Downloads/DTIProject/functional-test/features/chatfailed.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse homepage failed" classname="chatfailed;user-failed-chat-on-the-website" time="0.0001866">
+        </testcase>
+        <testcase name="And user click kirimpesan button failed" classname="chatfailed;user-failed-chat-on-the-website" time="0.0001248">
+        </testcase>
+        <testcase name="When user fill in the message to be sent failed" classname="chatfailed;user-failed-chat-on-the-website" time="0.0003563">
+        </testcase>
+        <testcase name="Then user click send button failed" classname="chatfailed;user-failed-chat-on-the-website" time="0.0001652">
+        </testcase>
+    </testsuite>
+</testsuites>
