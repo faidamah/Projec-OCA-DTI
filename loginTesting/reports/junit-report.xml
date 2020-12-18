@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="failed-signin-on-the-website;user-failed-to-signin-on-the-website" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="@Failed" value="true">
+            </property>
+            <property name="URI" value="D:\fai\DTI\SQA\Tugas\fungsional\features\signin-invalid.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse signin page" classname="failed-signin-on-the-website;user-failed-to-signin-on-the-website" time="0.0017251">
+        </testcase>
+        <testcase name="And user fill failed email to signin" classname="failed-signin-on-the-website;user-failed-to-signin-on-the-website" time="0.0009504">
+        </testcase>
+        <testcase name="And user can fill tha right password" classname="failed-signin-on-the-website;user-failed-to-signin-on-the-website" time="0.0006432">
+        </testcase>
+        <testcase name="When user click signin button" classname="failed-signin-on-the-website;user-failed-to-signin-on-the-website" time="0.0002331">
+        </testcase>
+        <testcase name="Then user see failed bot signin page" classname="failed-signin-on-the-website;user-failed-to-signin-on-the-website" time="0.0006905">
+        </testcase>
+    </testsuite>
+</testsuites>

@@ -1,0 +1,106 @@
+[
+  {
+    "description": "    As a user\n    I failed to login",
+    "elements": [
+      {
+        "id": "failed-signin-on-the-website;user-failed-to-signin-on-the-website",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "User failed to signin on the website",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse signin page",
+            "result": {
+              "status": "passed",
+              "duration": 1725100
+            },
+            "line": 9,
+            "match": {
+              "location": "D:\\fai\\DTI\\SQA\\Tugas\\fungsional\\step-definitions\\signin-steps-invalid.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill failed email to signin",
+            "result": {
+              "status": "passed",
+              "duration": 950400
+            },
+            "line": 10,
+            "match": {
+              "location": "D:\\fai\\DTI\\SQA\\Tugas\\fungsional\\step-definitions\\signin-steps-invalid.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user can fill tha right password",
+            "result": {
+              "status": "passed",
+              "duration": 643200
+            },
+            "line": 11,
+            "match": {
+              "location": "D:\\fai\\DTI\\SQA\\Tugas\\fungsional\\step-definitions\\signin-steps-invalid.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user click signin button",
+            "result": {
+              "status": "passed",
+              "duration": 233100
+            },
+            "line": 12,
+            "match": {
+              "location": "D:\\fai\\DTI\\SQA\\Tugas\\fungsional\\step-definitions\\signin-steps-invalid.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user see failed bot signin page",
+            "result": {
+              "status": "passed",
+              "duration": 690500
+            },
+            "line": 13,
+            "match": {
+              "location": "D:\\fai\\DTI\\SQA\\Tugas\\fungsional\\step-definitions\\signin-steps-invalid.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 12787713300,
+              "error_message": "WebDriverError: invalid argument\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Windows NT 10.0.19041 x86_64)\n    at Object.checkLegacyResponse (D:\\fai\\DTI\\SQA\\Tugas\\fungsional\\node_modules\\selenium-webdriver\\lib\\error.js:529:15)\n    at parseHttpResponse (D:\\fai\\DTI\\SQA\\Tugas\\fungsional\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at D:\\fai\\DTI\\SQA\\Tugas\\fungsional\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (node:internal/process/task_queues:93:5)\nFrom: Task: WebDriver.navigate().to( )\n    at thenableWebDriverProxy.schedule (D:\\fai\\DTI\\SQA\\Tugas\\fungsional\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at Navigation.to (D:\\fai\\DTI\\SQA\\Tugas\\fungsional\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1131:25)\n    at thenableWebDriverProxy.get (D:\\fai\\DTI\\SQA\\Tugas\\fungsional\\node_modules\\selenium-webdriver\\lib\\webdriver.js:988:28)\n    at Object.loadPage (D:\\fai\\DTI\\SQA\\Tugas\\fungsional\\node_modules\\selenium-cucumber-js\\runtime\\helpers.js:17:23)\n    at createWorld.<anonymous> (D:\\fai\\DTI\\SQA\\Tugas\\fungsional\\step-definitions\\signin-steps-invalid.js:28:25)"
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\fai\\DTI\\SQA\\Tugas\\fungsional\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Failed",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "failed-signin-on-the-website",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Failed Signin on the website",
+    "tags": [],
+    "uri": "D:\\fai\\DTI\\SQA\\Tugas\\fungsional\\features\\signin-invalid.feature"
+  }
+]
